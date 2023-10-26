@@ -1,0 +1,43 @@
+/* Estilos Globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #034896ef;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+.login-container {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Estilos da Imagem de Fundo */
+.background-image {
+    background-image: url('imagens/monet-1.jpeg');
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    position: relative;
+}
+
+.centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #1a0cd8cb;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
